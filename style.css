@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&display=swap');
+
+* {
+    text-decoration: none;
+    margin: auto;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-family: "Tiny5", sans-serif;
+    font-weight:  600;
+    font-style: normal;
+    text-align: center;
+    color: hsl(193, 100%, 50%);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: hwb(211 7% 20%);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    display: flex;
+    color: hsl(193, 100%, 50%);
+    background: hsl(214, 49%, 21%);
+}
+
+.cont-and-src-space{
+    color: black;
+    text-align: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.wrapper-2{
+    background: #ffffff;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+#home{
+    background: #f7bb4b;
+}
+
+.h2-kategori{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.permainan,.saldo{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kategori{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kategori-game{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.ml,.ff,.pubg{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.kategori-game img{
+    width: 90%;
+
+}
+
+.kategori2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kategori-saldo{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.dana,.gopay,.steam{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.kategori-saldo img{
+    width: 90%;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#courses{
+    background: #f7bb4b;
+}
+
+.image-1{
+    text-align: center;
+    padding-top: 5px;
+    width: 500px;
+    height: auto;
+}
+
+.h2-1{
+    padding-left: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ket,.ket-2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ket-penegas{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+.src {
+    width: max-content;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(54, 191, 255);
+    transition: box-shadow 0.25s;
+}
+
+.inp-div{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: max-content;
+}
+
+.src:focus-within{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+    background: rgb(76, 186, 242);
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+#tutors{
+    background: #f7bb4b;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tengah h2{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.tengah .populer{
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#partners{
+    background: #f7bb4b;
+}
+
+.other-p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #f7bb4b;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    background: #f7bb4b;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
